@@ -56,8 +56,6 @@ export const Home = () => {
 
   return (
     <>
-      <Navbar />
-
       <section className="flex flex-row justify-between mx-25 my-10">
         <div className="flex-2">
           <p className="text-[#1D4ED8] font-bold text-[18px]/[34px] tracking-[0.75px] font-[Mulish]">
@@ -183,7 +181,6 @@ export const Home = () => {
       </section>
 
       <Subscriber />
-      <Footer />
     </>
   );
 };
