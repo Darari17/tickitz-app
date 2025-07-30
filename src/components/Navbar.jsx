@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export const Navbar = () => {
   const isLogin = JSON.parse(localStorage.getItem("user"));
   return (
@@ -8,15 +10,15 @@ export const Navbar = () => {
         </div>
 
         <div className="hidden md:flex flex-1 justify-center items-center gap-8 text-sm font-normal- text-[#0F172A]">
-          <a href="/" className="hover:text-[#0F172A]">
-            Home
-          </a>
-          <a href="/" className="hover:text-[#0F172A]">
-            Movie
-          </a>
-          <a href="/" className="hover:text-[#0F172A]">
-            Buy Ticket
-          </a>
+          <p>
+            <Link to={"/"}>Home</Link>
+          </p>
+          <p>
+            <Link to={"/movie"}>Movie</Link>
+          </p>
+          <p>
+            <Link to={"/"}>Buy Ticket</Link>
+          </p>
         </div>
 
         {isLogin ? (
