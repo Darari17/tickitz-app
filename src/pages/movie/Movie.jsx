@@ -7,11 +7,9 @@ import { Subscriber } from "../../components/Subscriber";
 export const Movie = () => {
   return (
     <>
-      <Navbar />
       <HeroMovie />
       <CardMovie />
       <Subscriber />
-      <Footer />
     </>
   );
 };
