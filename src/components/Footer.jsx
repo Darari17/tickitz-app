@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="flex flex-col justify-center items-center ">
-        <section className="flex flex-row justify-center items-stretch bg-white px-24 py-20 w-full ">
+        <section className="flex flex-row justify-center items-stretch bg-white px-25 py-20 w-full ">
           <div className="flex flex-col flex-1 gap-5">
             <div>
               <img src={"./footer-logo-2.svg"} alt="Footer Logo" />
@@ -66,7 +66,7 @@ export const Footer = () => {
             </div>
           </div>
         </section>
-        <section class="down">
+        <section className="mb-5">
           <div>© 2020 Tickitz. All Rights Reserved.</div>
         </section>
       </footer>
